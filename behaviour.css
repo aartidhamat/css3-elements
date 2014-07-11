@@ -1,0 +1,50 @@
+/******* CSS for List starts here ******/
+.photo-grid {
+	-webkit-column-count: 4; 	/* Safari and Chrome */
+	-moz-column-count: 4;		/* Firefox */
+	-ms-column-count: 4;		/* IE */
+	-o-column-count: 4;			/* Opera */
+	column-count: 4;
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+	-ms-column-gap: 10px;
+	-o-column-gap: 10px;
+	column-gap: 10px;
+	-webkit-column-fill: balance;
+	-moz-column-fill: balance;
+	-ms-column-fill: balance;
+	-o-column-fill: balance;
+	column-fill: balance;
+	list-style: inside none;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+.photo-grid > li {
+	display: inline-block; 
+	margin: 0 0 10px 0;
+	width: 100%;
+}
+
+li > .photo-link {
+	height: 225px;
+	display: block;
+	position: relative;
+}
+
+.photo-link img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+.photo-link > .photo-title {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+/******* CSS for List ends here ******/
